@@ -82,7 +82,7 @@ int tbit_field :: getmask(int i)
 
 
 
- //----------BIT OPERATIONS-------------------------------------------
+ //----------BIT OPERATIONS------------------------------------------
 
  int tbit_field :: operator== ( tbit_field &ab) //comp
  {

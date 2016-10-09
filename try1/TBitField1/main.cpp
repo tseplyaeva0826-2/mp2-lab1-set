@@ -10,4 +10,5 @@ int main()
 	printf (" %i", a);
 	getch();
 return 0;
+
 };

@@ -46,5 +46,4 @@ public :
 	 friend istream &operator>>(istream &istr , tbit_field &ab);
 	 friend ostream &operator<<(istream &ostr , tbit_field &ab);
 
-
 };
