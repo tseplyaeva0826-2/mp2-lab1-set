@@ -1,0 +1,12 @@
+﻿Построение начато 16.10.2016 14:30:45.
+     1>Проект "G:\work\tsepl\mp2-lab1-set\sln\vc9\sample_prime_numbers\sample_prime_numbers.vcxproj" в узле 3 (целевые объекты Build).
+     1>Link:
+         H:\папка  Короля\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\sample_prime_numbers.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug bitfield.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\sample_prime_numbers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\sample_prime_numbers.lib" /MACHINE:X86 /SAFESEH Debug\sample_prime_numbers.obj
+         "G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\bitfield.lib"
+     1>sample_prime_numbers.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+         sample_prime_numbers.vcxproj -> G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\sample_prime_numbers.exe
+     1>Построение проекта "G:\work\tsepl\mp2-lab1-set\sln\vc9\sample_prime_numbers\sample_prime_numbers.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.75

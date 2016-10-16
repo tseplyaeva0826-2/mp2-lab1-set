@@ -1,0 +1,200 @@
+﻿Построение начато 16.10.2016 15:09:59.
+     1>Проект "G:\work\tsepl\mp2-lab1-set\sln\vc9\test_bitfield\test_bitfield.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         H:\папка  Короля\VS\VC\bin\CL.exe /c /I../../../gtest /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\test\test_tbitfield.cpp ..\..\..\test\test_tset.cpp
+         test_tset.cpp
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(51): warning C4005: _VARIADIC_MAX: изменение макроопределения
+                 h:\папка  короля\vs\vc\include\xstddef(397): см. предыдущее определение "_VARIADIC_MAX"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(9743): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(9751): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15188): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2955: testing::internal::ParamGeneratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10143): см. объявление "testing::internal::ParamGeneratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14958): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14969): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14969): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14974): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14974): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C2955: testing::internal::ParamIteratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10070): см. объявление "testing::internal::ParamIteratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14983): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14983): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15016): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15016): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15058): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15058): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15062): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15062): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15143): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15143): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15444): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2955: testing::internal::ParamGeneratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10143): см. объявление "testing::internal::ParamGeneratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15197): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15209): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15209): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15214): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15214): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C2955: testing::internal::ParamIteratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10070): см. объявление "testing::internal::ParamIteratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15223): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15223): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15259): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15259): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15305): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15305): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15309): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15309): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15395): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15395): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15705): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15752): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+         test_tbitfield.cpp
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(51): warning C4005: _VARIADIC_MAX: изменение макроопределения
+                 h:\папка  короля\vs\vc\include\xstddef(397): см. предыдущее определение "_VARIADIC_MAX"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(9743): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(9751): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15188): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14956): error C2955: testing::internal::ParamGeneratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10143): см. объявление "testing::internal::ParamGeneratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14958): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14969): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14969): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14974): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14974): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14981): error C2955: testing::internal::ParamIteratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10070): см. объявление "testing::internal::ParamIteratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14983): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(14983): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15016): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15016): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15058): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15058): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15062): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15062): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15143): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15143): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15444): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15195): error C2955: testing::internal::ParamGeneratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10143): см. объявление "testing::internal::ParamGeneratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15197): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15209): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15209): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15214): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15214): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15221): error C2955: testing::internal::ParamIteratorInterface: для использования класса шаблон требуется список аргументов шаблон
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(10070): см. объявление "testing::internal::ParamIteratorInterface"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15223): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15223): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15259): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15259): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15305): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15305): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15309): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15309): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15395): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15395): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15705): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15677): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C2977: std::tuple: слишком много аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+                 g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15752): см. ссылку на создание экземпляров класса шаблон при компиляции "testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>"
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C3203: tuple: неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "T", требуется действительный тип
+     1>g:\work\tsepl\mp2-lab1-set\gtest\gtest.h(15721): error C2955: std::tuple: для использования класса шаблон требуется список аргументов шаблон
+                 h:\папка  короля\vs\vc\include\utility(73): см. объявление "std::tuple"
+         Создание кода...
+     1>Построение проекта "G:\work\tsepl\mp2-lab1-set\sln\vc9\test_bitfield\test_bitfield.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.90

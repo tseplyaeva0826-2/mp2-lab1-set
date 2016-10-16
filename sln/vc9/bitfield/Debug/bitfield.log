@@ -1,0 +1,14 @@
+﻿Построение начато 16.10.2016 14:30:44.
+     1>Проект "G:\work\tsepl\mp2-lab1-set\sln\vc9\bitfield\bitfield.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         H:\папка  Короля\VS\VC\bin\CL.exe /c /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\tbitfield.cpp
+         tbitfield.cpp
+       Lib:
+         H:\папка  Короля\VS\VC\bin\Lib.exe /OUT:"G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\bitfield.lib" /NOLOGO Debug\tbitfield.obj
+         Debug\tset.obj
+         bitfield.vcxproj -> G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\bitfield.lib
+     1>Построение проекта "G:\work\tsepl\mp2-lab1-set\sln\vc9\bitfield\bitfield.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.56

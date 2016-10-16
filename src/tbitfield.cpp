@@ -103,10 +103,18 @@ int TBitField::operator==(const TBitField &bf) const // сравнение
 	return res;
 }
 
-/*int TBitField::operator!=(const TBitField &bf) const // сравнение
+int TBitField::operator!=(const TBitField &bf) const // сравнение
 {
-  return 0;
-}*/
+  int res = 1;
+	if (BitLen == bf.BitLen) res = 0;
+	else
+	for (int i = 0; i<BitLen; i++)
+	if (pMem[i] == bf.pMem[i])
+	{
+		res = 0; break;
+	}
+	return res;
+}
 
 TBitField TBitField::operator|(const TBitField &bf) // операция "или"
 {
@@ -114,7 +122,7 @@ TBitField TBitField::operator|(const TBitField &bf) // операция "или"
 	if (bf.BitLen> len) len = bf.BitLen;
 	TBitField L(len);
 	for (i = 0; i < MemLen; i++) L.pMem[i] = pMem[i];
-	for (i = 0; i < bf.MemLen; i++) L.pMem[i] = L.pMem[i] |bf.p[i];
+	for (i = 0; i < bf.MemLen; i++) L.pMem[i] = L.pMem[i] |bf.pMem[i];
 	return L;
 }
 
