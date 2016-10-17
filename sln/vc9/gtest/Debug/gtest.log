@@ -1,13 +1,13 @@
-﻿Построение начато 16.10.2016 2:19:49.
-     1>Проект "G:\work\tsepl\mp2-lab1-set\sln\vc9\gtest\gtest.vcxproj" в узле 2 (целевые объекты Build).
+﻿Build started 17.10.2016 10:32:22.
+     1>Project "C:\temp\tseplyaeva\mp2-lab1-set\sln\vc9\gtest\gtest.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         H:\папка  Короля\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GTEST_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\gtest\gtest-all.cc"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GTEST_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\gtest\gtest-all.cc"
          gtest-all.cc
        Lib:
-         H:\папка  Короля\VS\VC\bin\Lib.exe /OUT:"G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\gtest.lib" /NOLOGO "Debug\gtest-all.obj"
-         gtest.vcxproj -> G:\work\tsepl\mp2-lab1-set\sln\vc9\Debug\gtest.lib
-     1>Построение проекта "G:\work\tsepl\mp2-lab1-set\sln\vc9\gtest\gtest.vcxproj" завершено (целевые объекты Build).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\temp\tseplyaeva\mp2-lab1-set\sln\vc9\Debug\gtest.lib" /NOLOGO "Debug\gtest-all.obj"
+         gtest.vcxproj -> C:\temp\tseplyaeva\mp2-lab1-set\sln\vc9\Debug\gtest.lib
+     1>Done Building Project "C:\temp\tseplyaeva\mp2-lab1-set\sln\vc9\gtest\gtest.vcxproj" (Build target(s)).
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:03.24
+Time Elapsed 00:00:07.06

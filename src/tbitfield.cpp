@@ -9,12 +9,20 @@
 
 TBitField::TBitField(int len)
 {
+	if (len <= 0) { throw "negative index"; }
 	BitLen = len;
+	
 	MemLen = (len + sizeof(int)* 8 - 1) / (sizeof(int)* 8);
+	pMem = new TELEM[MemLen];
+	if (pMem != NULL)
+	{
+		for (int i = 0; i<MemLen; i++) { pMem[i] = 0; }
+	}
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
 {
+	if (bf.BitLen <= 0) { throw "negative index"; }
 	BitLen = bf.BitLen;
 	MemLen = bf.MemLen;
 	pMem = new TELEM[MemLen];
