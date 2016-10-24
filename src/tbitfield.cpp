@@ -49,7 +49,7 @@ TELEM TBitField::GetMemMask(const int n) const // битовая маска дл
 {
 	int m;
 	m = n % (sizeof(int)* 8);
-	int j = n << m;
+	int j = 1 << m;
 	return j;
 }
 
@@ -97,7 +97,10 @@ int TBitField::GetBit(const int n) const // получить значение б
 	{
 		throw "too large value";
 	}
-	return pMem[GetMemIndex(n)] & GetMemMask(n);
+
+	int v1 = GetMemIndex(n);
+	int v2 = GetMemMask(n);
+	return pMem[v1] & v2;
 }
 
 // битовые операции
