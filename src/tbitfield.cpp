@@ -216,16 +216,19 @@ TBitField TBitField::operator~(void) // отрицание
 istream &operator>>(istream &istr, TBitField &bf) // ввод
 {
 	int i = 0;
-	char ch;
-
-	do { istr >> ch; } while (ch != ' ');
-
-	while (1)
+	char symbol;
+	do
+		istr >> symbol;
+	while (symbol != ' ');
+	while (true)
 	{
-		istr >> ch;
-		if (ch == '0') bf.ClrBit(i++);
+		istr >> symbol;
+		if (symbol == '0')
+			bf.ClrBit(i++);
+		else if (symbol == '1')
+			bf.SetBit(i++);
 		else
-		if (ch == '1') bf.SetBit(i++); else break;
+			break;
 	}
 	return istr;
 }
@@ -233,7 +236,12 @@ istream &operator>>(istream &istr, TBitField &bf) // ввод
 ostream &operator<<(ostream &ostr, const TBitField &bf) // вывод
 {
 	int len = bf.GetLength();
-	for (int i = 0; i<len; i++)
-	if (bf.GetBit(i)) ostr << '1'; else ostr << '0';
-	return ostr; 
+	for (int i = 0; i < len; i++)
+	{
+		if (bf.GetBit(i))
+			ostr << '1';
+		else
+			ostr << '0';
+	}
+	return ostr;
 }
